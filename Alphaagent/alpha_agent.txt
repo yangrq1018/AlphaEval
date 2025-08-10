@@ -1,0 +1,9 @@
+($low - $high) / $close
+(($close - $high) / ($high - $low))
+(2 * $close - ($high + $low) / 2) / $open
+$high / Ref($close, 1)
+-Rank($high / $close, 10)
+$close / (Sum($close * $volume, 10) / Sum($volume, 10))
+WMA($close, 120) / $close
+WMA($low, 5) / $close
+(($close - Min($low, 15)) / (Max($high, 15) - Min($low, 15)))

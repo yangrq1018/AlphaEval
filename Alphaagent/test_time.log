@@ -1,0 +1,8 @@
+[Info] LLM response: { "hypothesis": "Stocks that have recently reached new highs are likely to continue their upward momentum, leading to positive future returns.", "description": "This factor identifies stocks that have hit their highest closing price in the last 50 trading days, relative to the total number of days. The idea is to capture stocks with strong upward price momentum. It is calculated as the proportion of the day's closing price to the highest closing price over the past 50 days, normalized by 50. A value closer to 1 indicates the price is near their recent peaks, while lower values suggest the stock has experienced some decline, potentially providing a signal for future performance." }
+
+📌 [IdeaAgent] Generated Idea:
+{'hypothesis': 'Stocks that have recently reached new highs are likely to continue their upward momentum, leading to positive future returns.', 'description': "This factor identifies stocks that have hit their highest closing price in the last 50 trading days, relative to the total number of days. The idea is to capture stocks with strong upward price momentum. It is calculated as the proportion of the day's closing price to the highest closing price over the past 50 days, normalized by 50. A value closer to 1 indicates the price is near their recent peaks, while lower values suggest the stock has experienced some decline, potentially providing a signal for future performance."}
+
+🔄 Round 1 ======================
+
+⏱️ [FactorAgent] Time taken: 1.18 seconds
