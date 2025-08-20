@@ -1,6 +1,6 @@
 # AlphaEval
 
-The implementation of [AlphaEval: A Comprehensive and Efficient Evaluation Framework for Formula Alpha Mining](https://www.researchgate.net/publication/394476071_AlphaEval_A_Comprehensive_and_Efficient_Evaluation_Framework_for_Formula_Alpha_Mining).
+The implementation of [AlphaEval: A Comprehensive and Efficient Evaluation Framework for Formula Alpha Mining](https://arxiv.org/abs/2508.13174).
 
 ## Overview
 
