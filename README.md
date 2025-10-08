@@ -1,7 +1,5 @@
 # AlphaEval
 
-The implementation of [AlphaEval: A Comprehensive and Efficient Evaluation Framework for Formula Alpha Mining](https://arxiv.org/abs/2508.13174).
-
 ## Overview
 
 This repository contains implementations of various factor mining models and the AlphaEval evaluation framework. The codebase is organized into two main components:
