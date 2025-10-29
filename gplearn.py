@@ -8,7 +8,7 @@ import qlib
 
 # 1. Initialize Qlib
 qlib.init(
-    provider_uri="path/to/your/qlib_data",
+    provider_uri="AlphaQCM_data/qlib_data/cn_data",
     region="cn"
 )
 
@@ -52,6 +52,7 @@ def main(args):
     # print(f"gplearn total time: {end - start:.6f} sec")
 
     # 6. Collect best programs and compute metrics
+    transformer.fit()
     programs = transformer._best_programs
     records = []
     for _, prog in enumerate(programs):

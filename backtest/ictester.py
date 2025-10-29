@@ -7,7 +7,7 @@ from qlib.data import D
 from typing import List, Tuple, Optional
 
 qlib.init(
-    provider_uri="path/to/your/qlib_data",
+    provider_uri="AlphaQCM_data/qlib_data/cn_data",
     region="cn"
 )
 
